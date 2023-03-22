@@ -46,6 +46,10 @@ nav {
   padding: 20px;
 }
 
+#olshop > footer > a:nth-child(1):hover {
+  color: grey;
+}
+
 @media only screen and (max-width: 576px) {
   nav {
     margin-bottom: 90px;
@@ -98,6 +102,10 @@ nav {
 
   body > section#olshop > footer > div > div:nth-child(2) > a:nth-child(1) {
     margin-top: 30px;
+  }
+
+  footer h6 {
+    text-align: center;
   }
 }
 @media only screen and (min-width: 576px) {
