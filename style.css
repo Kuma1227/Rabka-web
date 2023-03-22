@@ -28,11 +28,24 @@ nav {
   left: 160px;
 }
 
-.penampung2 .tomka button {
+/* .penampung2 .tomka button {
   position: absolute;
   top: 1300px;
   left: 160px;
+} */
+
+.benefit {
+  max-width: 1100px;
+  margin: 50px auto;
 }
+
+.benefit .keuntungan {
+  background-color: black;
+  color: rgb(245, 222, 22);
+  box-sizing: border-box;
+  padding: 20px;
+}
+
 @media only screen and (max-width: 576px) {
   nav {
     margin-bottom: 90px;
@@ -54,5 +67,46 @@ nav {
 
   #Gallery .kumpulan img {
     width: 550px;
+  }
+
+  .kumpulan h2 {
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  body > section#Journey1 > div > div:nth-child(1) > img {
+    width: 600px;
+    height: 600px;
+  }
+
+  body > section#Journey1 > div > div.col-md-6.p-4.mt-5.fs-5.text-warning > p {
+    text-align: center;
+  }
+
+  #olshop h2 {
+    text-align: center;
+  }
+
+  #olshop .kontak {
+    width: 350px;
+    margin-left: 85px;
+  }
+
+  body > section#olshop > div > div.col-md-6 > img {
+    margin-left: -135px;
+  }
+
+  body > section#olshop > footer > div > div:nth-child(2) > a:nth-child(1) {
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .benefit {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .benefit .keuntungan {
+    width: 30%;
   }
 }
